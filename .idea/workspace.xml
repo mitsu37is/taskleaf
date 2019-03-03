@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec6acad2-a3a6-43a4-b08a-641a9e8f93e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/taskleaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/taskleaf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/system/tasks_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/system/tasks_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tasks/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -21,42 +23,45 @@
     <session id="-1426688840">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="6" />
-          <entry key="erb" value="32" />
+          <entry key="erb" value="37" />
           <entry key="gitignore" value="1" />
           <entry key="js" value="2" />
-          <entry key="rb" value="37" />
+          <entry key="png" value="1" />
+          <entry key="rb" value="39" />
           <entry key="scss" value="2" />
-          <entry key="yml" value="4" />
+          <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Image" value="1" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RHTML" value="32" />
-          <entry key="Ruby" value="43" />
+          <entry key="RHTML" value="37" />
+          <entry key="Ruby" value="45" />
           <entry key="SCSS" value="2" />
-          <entry key="YAML" value="4" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="84" />
-          <entry key="erb" value="2891" />
+          <entry key="erb" value="3214" />
           <entry key="gitignore" value="8" />
-          <entry key="rb" value="4203" />
+          <entry key="rb" value="4385" />
           <entry key="scss" value="15" />
           <entry key="yml" value="239" />
         </counts>
@@ -64,8 +69,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="RHTML" value="2891" />
-          <entry key="Ruby" value="4287" />
+          <entry key="RHTML" value="3214" />
+          <entry key="Ruby" value="4469" />
           <entry key="SCSS" value="15" />
           <entry key="YAML" value="239" />
         </counts>
@@ -74,15 +79,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/system/tasks_spec.rb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="68" column="52" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
-              <folding>
-                <element signature="e#81#637#0" />
-                <element signature="e#843#966#0" />
-              </folding>
+            <state relative-caret-position="124">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/tasks/confirm_new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tasks/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tasks/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -96,7 +133,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/initializers/locale.rb" />
-        <option value="$PROJECT_DIR$/app/views/tasks/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/tasks/edit.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20190224024924_change_task_name_not_null.rb" />
         <option value="$PROJECT_DIR$/app/views/tasks/_form.html.erb" />
@@ -112,7 +148,6 @@
         <option value="$PROJECT_DIR$/app/views/admin/users/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190225094949_add_user_id_to_tasks.rb" />
@@ -122,12 +157,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/models/task.rb" />
         <option value="$PROJECT_DIR$/app/views/tasks/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/tasks_controller.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/factories/tasks.rb" />
         <option value="$PROJECT_DIR$/spec/factories/users.rb" />
         <option value="$PROJECT_DIR$/spec/system/tasks_spec.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/tasks/confirm_new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tasks/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/tasks_controller.rb" />
       </list>
     </option>
   </component>
@@ -152,7 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -164,24 +201,37 @@
             <path>
               <item name="taskleaf" type="b2602c69:ProjectViewProjectNode" />
               <item name="taskleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="taskleaf" type="b2602c69:ProjectViewProjectNode" />
               <item name="taskleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
-              <item name="factories" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="taskleaf" type="b2602c69:ProjectViewProjectNode" />
               <item name="taskleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taskleaf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taskleaf" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taskleaf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taskleaf" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,17 +373,20 @@
       <workItem from="1551068803206" duration="88000" />
       <workItem from="1551070386795" duration="4273000" />
       <workItem from="1551119386580" duration="3061000" />
-      <workItem from="1551124112714" duration="1642000" />
+      <workItem from="1551124112714" duration="2280000" />
+      <workItem from="1551502445918" duration="149000" />
+      <workItem from="1551645140786" duration="1195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24073000" />
+    <option name="totallyTimeSpent" value="26055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2673667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27544427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -346,7 +399,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28751752" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28611502" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -387,13 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tasks/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tasks/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -426,13 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
           <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/ja.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -474,24 +513,10 @@
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tasks/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tasks/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="23" column="81" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -556,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tasks/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -601,14 +619,55 @@
     <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/screenshots/failures_r_spec_example_groups_nested_nested_3_nested_2_エラーとなる_985.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/ja.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/system/tasks_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="68" column="52" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
-          <folding>
-            <element signature="e#81#637#0" />
-            <element signature="e#843#966#0" />
-          </folding>
+        <state relative-caret-position="29">
+          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tasks/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tasks/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tasks/confirm_new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
         </state>
       </provider>
     </entry>
